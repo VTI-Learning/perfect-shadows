@@ -1,0 +1,72 @@
+* {
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    width: auto;
+}
+
+.box {
+    background-color: #FFF;
+    border-radius: 25px;
+    height: 250px;
+    margin: auto;
+    padding: 1em;
+    width: 300px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.soft-shadow {
+    box-shadow: 0 22px 40px rgba(0, 0, 0, 0.1);
+}
+
+.soft-shadow-2 {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.natural-shadow {
+    box-shadow: 0 22px 40px rgba(17, 96, 96, 0.12);
+}
+
+.natural-shadow-2 {
+    box-shadow: 0 22px 40px rgba(0, 0, 0, 0.1);
+}
+
+.another-shadow {
+    box-shadow: 0 10px 22px #B21A004d;
+}
+
+.another-shadow-2 {
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+.real-shadow {
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    box-shadow: 0 -40px 150px rgba(229, 178, 202,1), 0 0 80px 10px rgba(112, 40, 228, 0.5);
+}
+
+.real-shadow::after {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.trim-shadow {
+    box-shadow: 0 32px 70px 40px rgba(17, 95, 95, 0.12);
+}
+
+.trim-shadow-2 {
+    box-shadow: 0 22px 40px 0 rgba(17, 95, 95, 0.12);
+}
